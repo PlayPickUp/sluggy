@@ -1,0 +1,17 @@
+# folders
+src
+node_modules
+scripts
+
+# file types
+.env
+.*.json
+*.json
+*.lock
+*.log
+
+# specific files
+tsconfig.json
+error_log
+.DS_Store
+.prettierrc

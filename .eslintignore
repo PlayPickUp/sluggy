@@ -1,0 +1,5 @@
+dist
+build
+.cache
+node_modules
+*.config.js
