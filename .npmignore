@@ -2,6 +2,8 @@
 src
 node_modules
 scripts
+.husky
+.github
 
 # file types
 .env
@@ -15,3 +17,4 @@ tsconfig.json
 error_log
 .DS_Store
 .prettierrc
+.prettierignore
