@@ -6,6 +6,11 @@
   "repository": "git@github.com:PlayPickUp/sluggy.git",
   "author": "Eric Stout <ericwstout@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "slug",
+    "slugify",
+    "permalink"
+  ],
   "private": false,
   "scripts": {
     "build": "yarn clean && node scripts/build.js",
