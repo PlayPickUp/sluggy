@@ -3,6 +3,7 @@
   "version": "0.0.0-development",
   "description": "JS helper module to make slugs for the PickUp Platform",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": "git@github.com:PlayPickUp/sluggy.git",
   "author": "Eric Stout <ericwstout@gmail.com>",
   "license": "MIT",
@@ -13,14 +14,14 @@
   ],
   "private": false,
   "scripts": {
-    "build": "yarn clean && node scripts/build.js",
+    "build": "yarn clean && yarn test && node scripts/build.js",
     "clean": "node scripts/clean.js",
     "test": "yarn test:typescript && yarn lint",
     "test:typescript": "tsc -p ./tsconfig.json",
     "format": "yarn prettier --write --ignore-unknown .",
     "lint": "eslint .",
     "prepare": "husky install",
-    "prepublishOnly": "yarn build",
+    "prepublishOnly": "yarn test && yarn build",
     "semantic-release": "semantic-release"
   },
   "dependencies": {
