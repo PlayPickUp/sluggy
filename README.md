@@ -5,6 +5,7 @@
 ![npm](https://img.shields.io/npm/v/@playpickup/sluggy)
 ![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/@playpickup/sluggy)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/@playpickup/sluggy)
+[![Test & Build](https://github.com/PlayPickUp/sluggy/actions/workflows/test.yml/badge.svg)](https://github.com/PlayPickUp/sluggy/actions/workflows/test.yml)
 
 A small but helpful JS package that removes common stop words and slugifies a string
 
