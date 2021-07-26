@@ -5,7 +5,6 @@ export const stopWords = [
   'after',
   'again',
   'against',
-  'all',
   'am',
   'an',
   'and',
