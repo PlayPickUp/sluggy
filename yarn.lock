@@ -1238,13 +1238,6 @@
     "@parcel/utils" "^1.11.0"
     physical-cpu-count "^2.0.0"
 
-"@playpickup/sluggy@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@playpickup/sluggy/-/sluggy-1.0.3.tgz#738217050cbb16ea28b705810f9d0726523243ce"
-  integrity sha512-G6w36J/joXG/s0ek11hoxaLgMekvd4bYpa9Bn+AmR0rwtaqsOxa8j0Lpn5X5BRUS9jdHT6jWssYRKgzNC0m0xw==
-  dependencies:
-    slugify "^1.5.3"
-
 "@semantic-release/changelog@^5.0.1":
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/@semantic-release/changelog/-/changelog-5.0.1.tgz#50a84b63e5d391b7debfe021421589fa2bcdafe4"
