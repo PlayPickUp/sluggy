@@ -25,7 +25,6 @@
     "semantic-release": "semantic-release"
   },
   "dependencies": {
-    "@playpickup/sluggy": "^1.0.3",
     "slugify": "^1.5.3"
   },
   "devDependencies": {
