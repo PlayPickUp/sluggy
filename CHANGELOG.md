@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/PlayPickUp/sluggy/compare/v1.1.4...v2.0.0) (2021-09-17)
+
+
+### Bug Fixes
+
+* **module:** Update documention to show breaking change ([15c8955](https://github.com/PlayPickUp/sluggy/commit/15c8955ca161c084b2956148d7eff8aa9207e1c2))
+
+
+### BREAKING CHANGES
+
+* **module:** The import has changed to a default import
+
 ## [1.1.4](https://github.com/PlayPickUp/sluggy/compare/v1.1.3...v1.1.4) (2021-09-17)
 
 
