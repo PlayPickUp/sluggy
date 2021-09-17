@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/PlayPickUp/sluggy/compare/v1.1.3...v1.1.4) (2021-09-17)
+
+
+### Bug Fixes
+
+* **config:** Update module output ([e4d04d9](https://github.com/PlayPickUp/sluggy/commit/e4d04d9b2c380f1568638ca45b640a1972525552))
+
 ## [1.1.3](https://github.com/PlayPickUp/sluggy/compare/v1.1.2...v1.1.3) (2021-09-17)
 
 
