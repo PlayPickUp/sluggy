@@ -22,7 +22,7 @@ npm install --save @playpickup/sluggy
 ## 👩🏽‍💻 Usage
 
 ```js
-import { makeSlug } from @playpickup/sluggy;
+import makeSlug from @playpickup/sluggy;
 
 const string = "Will Clayton Kershaw win MVP again?";
 const slug = makeSlug(string); // will-clayton-kershaw-win-mvp
