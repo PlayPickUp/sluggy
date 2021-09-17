@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/PlayPickUp/sluggy/compare/v2.0.0...v2.1.0) (2021-09-17)
+
+
+### Features
+
+* **build:** Switch to rollup ([ef0c5e9](https://github.com/PlayPickUp/sluggy/commit/ef0c5e909be38ad8bea9b6df15c7fa2e656042c8))
+
 # [2.0.0](https://github.com/PlayPickUp/sluggy/compare/v1.1.4...v2.0.0) (2021-09-17)
 
 

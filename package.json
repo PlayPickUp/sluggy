@@ -14,7 +14,7 @@
   ],
   "private": false,
   "scripts": {
-    "build": "yarn clean && yarn test && node scripts/build.js",
+    "build": "yarn clean && yarn test && yarn rollup --config",
     "clean": "node scripts/clean.js",
     "test": "yarn test:typescript && yarn lint",
     "test:typescript": "tsc -p ./tsconfig.json",
@@ -28,6 +28,11 @@
     "slugify": "^1.5.3"
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "@rollup/plugin-typescript": "^8.2.5",
+    "@rollup/plugin-url": "^6.1.0",
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/commit-analyzer": "^8.0.1",
     "@semantic-release/git": "^9.0.0",
@@ -39,8 +44,8 @@
     "del": "^6.0.0",
     "eslint": "^7.29.0",
     "husky": "^6.0.0",
-    "parcel-bundler": "^1.12.5",
     "prettier": "^2.3.1",
+    "rollup": "^2.56.3",
     "semantic-release": "^17.4.4",
     "typescript": "^4.3.4"
   }
