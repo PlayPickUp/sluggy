@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/PlayPickUp/sluggy/compare/v1.1.2...v1.1.3) (2021-09-17)
+
+
+### Bug Fixes
+
+* **module:** Fix module output via ts ([252d133](https://github.com/PlayPickUp/sluggy/commit/252d133e540b3b08c65c97d01c435dea5d415da2))
+
 ## [1.1.2](https://github.com/PlayPickUp/sluggy/compare/v1.1.1...v1.1.2) (2021-09-17)
 
 
