@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/PlayPickUp/sluggy/compare/v1.1.0...v1.1.1) (2021-09-17)
+
+
+### Bug Fixes
+
+* **module:** Update module export ([8d31d30](https://github.com/PlayPickUp/sluggy/commit/8d31d30f6ade3d353a2ed2f6afd556e04f39002b))
+
 # [1.1.0](https://github.com/PlayPickUp/sluggy/compare/v1.0.3...v1.1.0) (2021-07-26)
 
 
