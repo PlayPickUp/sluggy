@@ -11,6 +11,4 @@ const removeStopWords = (headline: string) => {
 const makeSlug: MakeSlug = (string) =>
   slugify(removeStopWords(string), { lower: true, strict: true });
 
-module.exports = {
-  makeSlug,
-};
+export default makeSlug;
