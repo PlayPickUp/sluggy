@@ -7,5 +7,9 @@ const removeStopWords = (headline: string) => {
   return headline.replace(new RegExp('\\b(' + expStr + ')\\b', 'gi'), '');
 };
 
-export const makeSlug = (string: string): string =>
+const makeSlug = (string: string): string =>
   slugify(removeStopWords(string), { lower: true, strict: true });
+
+module.exports = {
+  makeSlug,
+};
